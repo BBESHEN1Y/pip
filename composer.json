@@ -1,1 +1,21 @@
-
+{
+    "name": "bbeshen1y/pip",
+    "description": "Simple PHP package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Besheniy\\Pip\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
